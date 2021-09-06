@@ -3,14 +3,14 @@
 namespace Octopy\BladeDirective;
 
 use Illuminate\Support\Facades\Blade;
+use Octopy\BladeDirective\Directives\URLDirective;
 use Octopy\BladeDirective\Exceptions\DuplicateBladeDirectiveException;
-use Octopy\BladeDirective\Traits\URLDirectiveTrait;
 use ReflectionClass;
 use ReflectionMethod;
 
 class BladeDirective
 {
-    use URLDirectiveTrait;
+    use URLDirective;
 
     /**
      * @var array

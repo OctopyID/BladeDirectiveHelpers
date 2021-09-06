@@ -1,10 +1,10 @@
 <?php
 
-namespace Octopy\BladeDirective\Traits;
+namespace Octopy\BladeDirective\Directives;
 
 use Octopy\BladeDirective\Exceptions\DuplicateBladeDirectiveException;
 
-trait URLDirectiveTrait
+trait URLDirective
 {
     /**
      * @throws DuplicateBladeDirectiveException
