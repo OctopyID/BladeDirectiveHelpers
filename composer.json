@@ -1,0 +1,37 @@
+{
+    "name": "octopyid/blade-directive-helpers",
+    "description": "Blade directive for frequently used helpers",
+    "keywords": [
+        "laravel",
+        "blade"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Supian M",
+            "email": "supianidz@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "laravel/laravel": "^8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Octopy\\BladeDirective\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Octopy\\BladeDirective\\BladeDirectiveServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
