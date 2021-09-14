@@ -9,6 +9,16 @@ trait URLDirective
     /**
      * @throws DuplicateBladeDirectiveException
      */
+    protected function directiveMix()
+    {
+        $this->setDirective('mix', function ($expression) {
+            return "<?php echo mix($expression); ?>";
+        });
+    }
+
+    /**
+     * @throws DuplicateBladeDirectiveException
+     */
     protected function directiveURL()
     {
         $this->setDirective('url', function ($expression) {
