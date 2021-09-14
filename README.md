@@ -13,12 +13,13 @@ $ composer require octopyid/blade-directive
 ```
 
 ## Usage
-Just add `@` at the beginning of the helper keyword. For example, you often use syntax like this `{{ route('foo.bar') }}` with this package you can just write `@route('foo.bar')`
 
+Just add `@` at the beginning of the helper keyword. For example, you often use syntax like this `{{ route('foo.bar') }}` with this package you can just write `@route('foo.bar')`
 
 | HELPER | COMMON USAGE           | PACKAGE USAGE     |
 |--------|------------------------|-------------------|
 | url    | {{ url('foo') }}       | @url('foo')       |
+| mix    | {{ mix('foo') }}       | @mix('foo')       |
 | asset  | {{ asset('foo') }}     | @asset('foo')     |
 | route  | {{ route('foo', []) }} | @route('foo', []) |
 
