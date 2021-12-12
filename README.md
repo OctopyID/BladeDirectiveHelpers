@@ -9,7 +9,7 @@ To install the package, simply follow the steps below.
 Install the package using Composer:
 
 ```
-$ composer require octopyid/blade-directive
+$ composer require octopyid/blade-directive-helpers
 ```
 
 ## Usage
@@ -25,7 +25,7 @@ Just add `@` at the beginning of the helper keyword. For example, you often use 
 
 ## Security
 
-If you discover any security related issues, please email [supianidz@gmail.com](mailto:supianidz@gmail.com) or [me@octopy.id](mailto:me@octopy.id) instead of using the issue
+If you discover any security related issues, please email [bug@octopy.id](mailto:bug@octopy.id) instead of using the issue
 tracker.
 
 ## Credits
